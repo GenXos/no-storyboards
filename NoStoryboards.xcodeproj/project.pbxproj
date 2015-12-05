@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F848A421C131927001DA585 /* lost_in_future_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FD5ABD91C12655D00730C55 /* lost_in_future_0.ttf */; };
+		5F848A431C13192E001DA585 /* njnaruto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FD5ABD81C1263FC00730C55 /* njnaruto.ttf */; };
+		5F848A441C131932001DA585 /* samurai.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FD5ABD71C12628600730C55 /* samurai.ttf */; };
 		5FD5ABB51C0FAA0200730C55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5ABB41C0FAA0200730C55 /* AppDelegate.swift */; };
 		5FD5ABB71C0FAA0200730C55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5ABB61C0FAA0200730C55 /* ViewController.swift */; };
 		5FD5ABBC1C0FAA0200730C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FD5ABBB1C0FAA0200730C55 /* Assets.xcassets */; };
 		5FD5ABBF1C0FAA0200730C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FD5ABBD1C0FAA0200730C55 /* LaunchScreen.storyboard */; };
 		5FD5ABCB1C0FAF3D00730C55 /* ArmyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5ABC91C0FAF3D00730C55 /* ArmyViewController.swift */; };
 		5FD5ABCC1C0FAF3D00730C55 /* ArmyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FD5ABCA1C0FAF3D00730C55 /* ArmyViewController.xib */; };
+		5FD5ABCF1C1241EC00730C55 /* NinjaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5ABCD1C1241EC00730C55 /* NinjaViewController.swift */; };
+		5FD5ABD21C124C2A00730C55 /* SamuraiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FD5ABD11C124C2A00730C55 /* SamuraiViewController.xib */; };
+		5FD5ABD41C124C5000730C55 /* NinjaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FD5ABD31C124C5000730C55 /* NinjaViewController.xib */; };
+		5FD5ABD61C1252CD00730C55 /* SamuraiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD5ABD51C1252CD00730C55 /* SamuraiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		5FD5ABC01C0FAA0200730C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FD5ABC91C0FAF3D00730C55 /* ArmyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmyViewController.swift; sourceTree = "<group>"; };
 		5FD5ABCA1C0FAF3D00730C55 /* ArmyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArmyViewController.xib; sourceTree = "<group>"; };
+		5FD5ABCD1C1241EC00730C55 /* NinjaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinjaViewController.swift; sourceTree = "<group>"; };
+		5FD5ABD11C124C2A00730C55 /* SamuraiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SamuraiViewController.xib; sourceTree = "<group>"; };
+		5FD5ABD31C124C5000730C55 /* NinjaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NinjaViewController.xib; sourceTree = "<group>"; };
+		5FD5ABD51C1252CD00730C55 /* SamuraiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamuraiViewController.swift; sourceTree = "<group>"; };
+		5FD5ABD71C12628600730C55 /* samurai.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = samurai.ttf; sourceTree = "<group>"; };
+		5FD5ABD81C1263FC00730C55 /* njnaruto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = njnaruto.ttf; sourceTree = "<group>"; };
+		5FD5ABD91C12655D00730C55 /* lost_in_future_0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lost_in_future_0.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,9 @@
 		5FD5ABB31C0FAA0100730C55 /* NoStoryboards */ = {
 			isa = PBXGroup;
 			children = (
+				5FD5ABD71C12628600730C55 /* samurai.ttf */,
+				5FD5ABD81C1263FC00730C55 /* njnaruto.ttf */,
+				5FD5ABD91C12655D00730C55 /* lost_in_future_0.ttf */,
 				5FD5ABC81C0FAD3500730C55 /* Controller */,
 				5FD5ABC71C0FAD2D00730C55 /* View */,
 				5FD5ABC61C0FAD2300730C55 /* Model */,
@@ -79,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				5FD5ABCA1C0FAF3D00730C55 /* ArmyViewController.xib */,
+				5FD5ABD31C124C5000730C55 /* NinjaViewController.xib */,
+				5FD5ABD11C124C2A00730C55 /* SamuraiViewController.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -87,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				5FD5ABC91C0FAF3D00730C55 /* ArmyViewController.swift */,
+				5FD5ABCD1C1241EC00730C55 /* NinjaViewController.swift */,
+				5FD5ABD51C1252CD00730C55 /* SamuraiViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -150,8 +171,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FD5ABCC1C0FAF3D00730C55 /* ArmyViewController.xib in Resources */,
+				5F848A441C131932001DA585 /* samurai.ttf in Resources */,
 				5FD5ABBF1C0FAA0200730C55 /* LaunchScreen.storyboard in Resources */,
+				5FD5ABD41C124C5000730C55 /* NinjaViewController.xib in Resources */,
 				5FD5ABBC1C0FAA0200730C55 /* Assets.xcassets in Resources */,
+				5FD5ABD21C124C2A00730C55 /* SamuraiViewController.xib in Resources */,
+				5F848A431C13192E001DA585 /* njnaruto.ttf in Resources */,
+				5F848A421C131927001DA585 /* lost_in_future_0.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,9 +188,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD5ABD61C1252CD00730C55 /* SamuraiViewController.swift in Sources */,
 				5FD5ABB71C0FAA0200730C55 /* ViewController.swift in Sources */,
 				5FD5ABCB1C0FAF3D00730C55 /* ArmyViewController.swift in Sources */,
 				5FD5ABB51C0FAA0200730C55 /* AppDelegate.swift in Sources */,
+				5FD5ABCF1C1241EC00730C55 /* NinjaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +334,7 @@
 				5FD5ABC51C0FAA0200730C55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

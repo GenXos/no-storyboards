@@ -1,14 +1,14 @@
 //
-//  ArmyViewController.swift
+//  SamuraiViewController.swift
 //  NoStoryboards
 //
-//  Created by Todd Fields on 2015-12-02.
+//  Created by Todd Fields on 2015-12-04.
 //  Copyright © 2015 Todd Fields. All rights reserved.
 //
 
 import UIKit
 
-class ArmyViewController: UIViewController {
+class SamuraiViewController: UIViewController {
 
   var ninjaVC: NinjaViewController!
   
@@ -30,7 +30,8 @@ class ArmyViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-  
+    
+
   @IBAction func loadNinjaView(sender: AnyObject) {
     
     ninjaVC = NinjaViewController(nibName: "NinjaViewController", bundle: nil)

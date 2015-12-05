@@ -41,5 +41,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>samurai.ttf</string>
+		<string>njnaruto.ttf</string>
+		<string>lost_in_future_0.ttf</string>
+	</array>
 </dict>
 </plist>
