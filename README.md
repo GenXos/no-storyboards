@@ -1,4 +1,4 @@
-# IOS-course-no-storyboards
+# no-storyboards
 
 ![Sargeant](http://skullgate.com/images/no-storyboards1.png "Screen 1")
 
